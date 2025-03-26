@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Save My Exams Reset",
+  "version": "1.0",
+  "description": "Reset the free revision note limit on Save My Exams.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://www.savemyexams.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Reset SME Limit"
+  }
+}
